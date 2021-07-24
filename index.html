@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <script src="thumbnail.js"></script>
+    <script src="thumbnail.js">
+      let targetImage = document.querySelector("#smart-image");
+      targetImage.classList.remove("small");
+    </script>
     <title>我的个人网站</title>
   </head>
   
@@ -32,7 +35,7 @@
         <article>
           <h2>赤木晴子和樱木花道是最广为人知的角色</h2>
            <p>
-             <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201807%2F23%2F20180723233847_Q4GWF.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629709708&t=014f0cad228c1469579b5875e17e549d" height="600" width="800" alt="photo" id="smart-image">
+             <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201807%2F23%2F20180723233847_Q4GWF.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629709708&t=014f0cad228c1469579b5875e17e549d" height="600" width="800" alt="photo" class="small" id="smart-image">
           </p>
         </article>
         
