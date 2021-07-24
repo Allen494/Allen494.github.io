@@ -1,6 +1,5 @@
 @media (hover: hover) {
   a:hover {
-    background-color: green;
     color:green;
   }
 }
